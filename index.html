@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags goes here -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   
+<link rel="stylesheet" href="styles.css">
+<title>Bootstrap 5 crash course</title>
+  </head>
+  <style>
+
+::placeholder { 
+  color: black !important;
+}
+[class*="form-control-lg"] {
+   height:100px;
+   margin:0 !important;
+   overflow-y: scroll;
+}
+
+   [class*="col"]{
+       border:1px solid black;
+   }
+
+   [class*="wrapper"]{
+       margin-bottom: 100px;
+   }
+  [class*="logo-section"]{
+      width: 550px;
+      height: 350px;
+      padding: 15px;
+      
+  }
+
+
+
+
+  
+    
+  </style>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-warning bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Resume</a></li>
+                  <li><a class="dropdown-item" href="#">Github</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Personal Project</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+     <form>
+        <div class="form-group">
+            <div class="h2 text-center text-uppercase mt-3">Lean Canvas</div>
+            <div class="container-md mt-5 mb-5">
+                <div class="row gx-0">
+                    <div class="col-md-6 col-sm">
+            <textarea class="form-control  text-center" id="exampleFormControlTextarea3" rows="7" placeholder="Problems"></textarea>
+        </div>
+        <div class="col-md-6 col-sm">
+            <textarea class="form-control  text-center" id="exampleFormControlTextarea3" rows="4" placeholder="Solution"></textarea>
+        </div>
+        </div>
+        <div class="row gx-0">
+            <div class="col-md-6 col-sm">
+                <textarea class="form-control text-center" id="exampleFormControlTextarea3" rows="3" placeholder="Key Metrics"></textarea>
+            </div>
+            <div class="col-md-6 col-sm">
+                <textarea class="form-control  text-center" id="exampleFormControlTextarea3" rows="7" placeholder="Unique Value Proposition"></textarea>
+            </div>
+        </div>
+        <div class="row gx-0">
+            <div class="col-md-4">
+            <textarea class="form-control  text-center" id="exampleFormControlTextarea3" rows="3" placeholder="Unfair Advantanges"></textarea>
+        </div>
+        <div class="col-md-4">
+            <textarea class="form-control  text-center" id="exampleFormControlTextarea3" rows="3" placeholder="Customers Segments"></textarea>
+        </div>
+        <div class="col-md-4">
+            <textarea class="form-control text-center" id="exampleFormControlTextarea3" rows="3" placeholder="Competition"></textarea>
+        </div>
+        </div> 
+        <div class="row gx-0">
+            <div class="col-md-4">
+            <textarea class="form-control  text-center" id="exampleFormControlTextarea3" rows="3" placeholder="Channels"></textarea>
+        </div>
+        <div class="col-md-4">
+            <textarea class="form-control  text-center" id="exampleFormControlTextarea3" rows="3" placeholder="Cost Structure"></textarea>
+        </div>
+        <div class="col-md-4">
+            <textarea class="form-control text-center" id="exampleFormControlTextarea3" rows="3" placeholder="Revenue Streams"></textarea>
+        </div>
+        </div>  
+        <div class="d-grid gap-2 mt-2">
+            <button class="btn btn-dark" type="submit">Update Current</button>
+            <button class="btn btn-dark" type="submit">As New</button>
+
+            </div>
+          </div>  
+        </div>
+        </div>
+     </form>
+
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/poppar.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
